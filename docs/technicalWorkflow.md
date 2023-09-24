@@ -134,3 +134,79 @@ Certainly! Let's expand on the endpoints to be more comprehensive and cover all 
     - Description: Retrieves details of a specific payment.
 
 ---
+
+**React Routes (React Web Interface):**
+
+1. **User Management:**
+  
+   - **`/register`**
+     - View: Registration page.
+     - Purpose: Allows users (employer/employee) to register.
+
+   - **`/login`**
+     - View: Login page.
+     - Purpose: Allows users to log in.
+
+   - **`/profile/:userId`**
+     - View: User's profile page.
+     - Purpose: Displays user details and allows for edits. 
+
+2. **Contract Management:**
+
+   - **`/contracts/create`**
+     - View: Contract creation page.
+     - Purpose: Allows employers to create a new contract.
+
+   - **`/contracts/:contractId`**
+     - View: Specific contract details page.
+     - Purpose: Displays contract details and allows the employee to review and accept.
+
+   - **`/contracts/list`**
+     - View: Contracts listing page.
+     - Purpose: Displays all the contracts created by the logged-in employer or assigned to the logged-in employee.
+
+3. **Invoice Management:**
+   
+   - **`/invoices/:invoiceId`**
+     - View: Specific invoice details page.
+     - Purpose: Displays invoice details and the associated Solana Pay link (in QR form).
+
+   - **`/invoices/list`**
+     - View: Invoices listing page.
+     - Purpose: Displays all the invoices created by or for the logged-in user.
+
+4. **Payment Management:**
+
+   - **`/payments/list`**
+     - View: Payments listing page.
+     - Purpose: Displays all payments made by or for the logged-in user.
+
+   - **`/payments/:paymentId`**
+     - View: Specific payment details page.
+     - Purpose: Displays details of a specific payment.
+
+5. **Dashboard/Home:**
+
+   - **`/dashboard`** or **`/`**
+     - View: Dashboard or Home page.
+     - Purpose: Overview of user activities, including recent contracts, invoices, and payments.
+
+6. **Miscellaneous:**
+
+   - **`/settings`**
+     - View: User settings page.
+     - Purpose: Allows users to modify account settings.
+
+   - **`/help`**
+     - View: Help and FAQ page.
+     - Purpose: Provides guidance and answers common questions.
+
+   - **`/about`**
+     - View: About page.
+     - Purpose: Provides information about the platform, its purpose, and creators.
+
+   - **`/contact`**
+     - View: Contact page.
+     - Purpose: Allows users to contact support or the platform administrators.
+
+---
